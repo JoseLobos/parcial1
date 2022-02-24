@@ -35,6 +35,8 @@ public class Tabs extends AppCompatActivity {
         tab4 = findViewById(R.id.tabHome);
         boton = findViewById(R.id.btnregresar);
 
+
+
         pagerAdapter = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
 
         viewPager.setAdapter(pagerAdapter);
@@ -72,15 +74,10 @@ public class Tabs extends AppCompatActivity {
         });
 
 
+
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
-        boton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent menu = new Intent(Tabs.this,MenuPrincipal.class);
-                startActivity(menu);
-            }
-        });
+
     }
 
 

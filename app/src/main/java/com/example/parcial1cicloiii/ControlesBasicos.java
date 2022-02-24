@@ -19,8 +19,8 @@ public class ControlesBasicos extends AppCompatActivity {
         final EditText tNombre = (EditText)this.findViewById(R.id.etNombre);
         final EditText tApellido = (EditText)this.findViewById(R.id.etApellido);
         Button bDatos = (Button)this.findViewById(R.id.btnEnviar);
+        Button menu = (Button)this.findViewById(R.id.button2);
 // Crear el método Clic para el botón
-
 
         bDatos.setOnClickListener(new View.OnClickListener() {
 
@@ -42,6 +42,14 @@ public class ControlesBasicos extends AppCompatActivity {
 
                 siga.putExtras(pasarDatos);
                 startActivity(siga);
+            }
+        });
+
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent menu = new Intent(ControlesBasicos.this,MenuPrincipal.class);
+                startActivity(menu);
             }
         });
 

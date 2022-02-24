@@ -12,7 +12,7 @@ import com.google.android.material.tabs.TabLayout;
 public class MenuPrincipal extends AppCompatActivity {
 
     TabLayout tabLayout;
-    ViewPager viewPager;
+
     TabItem tab1,tab2,tab3,tab4,tab5;
 
     @Override
@@ -27,6 +27,7 @@ public class MenuPrincipal extends AppCompatActivity {
         tab4 = findViewById(R.id.tab4);
         tab5 = findViewById(R.id.tab5);
 
+
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
@@ -34,7 +35,7 @@ public class MenuPrincipal extends AppCompatActivity {
                 // Determinar cual fragment se presenta
                 if(tab.getPosition()==0){
 
-                    Intent siguiente = new Intent(MenuPrincipal.this, Tabs.class);
+                    Intent siguiente = new Intent(MenuPrincipal.this, MenuPrincipal.class);
                     startActivity(siguiente);
                 }
                 if(tab.getPosition()==1){
