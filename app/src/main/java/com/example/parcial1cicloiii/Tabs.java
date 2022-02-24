@@ -1,6 +1,9 @@
 package com.example.parcial1cicloiii;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -14,6 +17,7 @@ public class Tabs extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager viewPager;
     TabItem tab1,tab2,tab3,tab4;
+    Button boton;
 
     PagerController pagerAdapter;
 
@@ -29,6 +33,7 @@ public class Tabs extends AppCompatActivity {
         tab2 = findViewById(R.id.tabAlmuerzo);
         tab3 = findViewById(R.id.tabCena);
         tab4 = findViewById(R.id.tabHome);
+        boton = findViewById(R.id.btnregresar);
 
         pagerAdapter = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
 
@@ -69,7 +74,13 @@ public class Tabs extends AppCompatActivity {
 
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
-
+        boton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent menu = new Intent(Tabs.this,MenuPrincipal.class);
+                startActivity(menu);
+            }
+        });
     }
 
 
