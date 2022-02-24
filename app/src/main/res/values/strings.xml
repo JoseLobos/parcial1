@@ -19,4 +19,43 @@
     <string name="tabsensorapro">Sensores</string>
     <string name="tabmult">Multimedia</string>
     <string name="tabacer">Acerca de </string>
+
+    //STRING PARA LOS TAB
+    <string name="tabdesayuno">Desayuno Saludable</string>
+    <string name="tabAlmuerzo">Almuerzo Saludable</string>
+    <string name="tabCena">Cena Saludable</string>
+    <string name="tabHome">Inicio</string>
+
+    //STRING TAB FRAGMENTO DESAYUNO
+    <string name="INTRO">Tu desayuno saludable</string>
+
+    <string name="TITULO1">Omelete</string>
+    <string name="TITULO2">Sandwich de atun</string>
+    <string name="TITULO3">Jugos naturales</string>
+    <string name="TITULO4">Avena</string>
+
+    //STRING TAB FRAGMENTO ALMUERZO
+
+    <string name="INTROF">Tu almuerzo saludable</string>
+
+    <string name="TITULO1F">Pechuga asada con verduras</string>
+    <string name="TITULO2F">Quesadillas vegetariana</string>
+    <string name="TITULO3F">Pasta con pollo</string>
+    <string name="TITULO4F">Filete de pescado con ensalada</string>
+
+    //STRING TAB FRAGMENTO CENA
+    <string name="INTROFS">Tu Cena Saludable</string>
+
+    <string name="TITULO1FS">Aguacate Relleno Con Pescado</string>
+    <string name="TITULO2FS">Ensalada Campera</string>
+    <string name="TITULO3FS">Ensalada De Fruta</string>
+    <string name="TITULO4FS">Ensalada De Arroz Con Lentejas</string>
+
+    //STRING TAB FRAGMENTO INICIO
+    <string name="TITULOINICIO"> BIENVENIDO A TUS ALIMENTOS SALUDABLES </string>
+
+    <string name="MENSAJEINICIO"> Hemos preparado para ti distintas opciones de comidas saludable,
+        para conocerlas ingresa a las opciones de la parte inferior de la pantalla. </string>
+
+    <string name="todo">TODO</string>
 </resources>
