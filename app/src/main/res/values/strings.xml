@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Parcial 1</string>
+
+    // String de pantalla portada
+    <string name="nombreu">Universidad Gerardo Barrios</string>
+    <string name="nombreint">Integrantes</string>
+    <string name="nombreuno">KATTERIN YEFERIN CAMPOS RODRÍGUEZ  </string>
+    <string name="nombredos">MIGUEL ALONSO PORTILLO QUINTEROS   </string>
+    <string name="nombretres">FRANKLIN STANLEY LARIN SARAVIA    </string>
+    <string name="nombrecuatro">JOSÉ ALEXANDER SALINAS LOBOS    </string>
+    <string name="nombrecinco">ERICK MAURICIO TIZNADO RODRIGUEZ </string>
+    <string name="nombreseis">NATHALY MILENA ZELAYA CABALLERO   </string>
+    <string name="btnpaginasig">Siguiente </string>
+
+    //String de tab
+    <string name="tabinicio">Inicio</string>
+    <string name="tabingresardatos">Datos</string>
+    <string name="tabfragments">Fragmentos </string>
+    <string name="tabsensorapro">Sensores</string>
+    <string name="tabmult">Multimedia</string>
+    <string name="tabacer">Acerca de </string>
+</resources>
