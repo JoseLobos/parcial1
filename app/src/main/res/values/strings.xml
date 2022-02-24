@@ -12,6 +12,16 @@
     <string name="nombreseis">NATHALY MILENA ZELAYA CABALLERO   </string>
     <string name="btnpaginasig">Siguiente </string>
 
+    <string name="titulo">CONTROLES BASICOS</string>
+    <string name="nombre">Escriba su nombre</string>
+    <string name="apellido">Escriba su apellido</string>
+    <string name="enviarDatos">Enviar Datos</string>
+
+    <string name="titulo1">DETERMINAR SI ES MAYOR DE EDAD</string>
+    <string name="nombre1">Escriba su nombre</string>
+    <string name="edad">Escriba su edad</string>
+    <string name="enviarDatos1">ENVIAR DATOS</string>
+    <string name="volver">PANTALLA ANTERIOR</string>
     //String de tab
     <string name="tabinicio">Inicio</string>
     <string name="tabingresardatos">Datos</string>
@@ -56,6 +66,6 @@
 
     <string name="MENSAJEINICIO"> Hemos preparado para ti distintas opciones de comidas saludable,
         para conocerlas ingresa a las opciones de la parte inferior de la pantalla. </string>
-
+<string name="MENUPRINCIPAL"> Regresar al Menu principal</string>
     <string name="todo">TODO</string>
 </resources>

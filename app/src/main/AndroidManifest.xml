@@ -13,7 +13,16 @@
             android:name=".AcercaDe"
             android:exported="true"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".Tabs"
+            android:exported="true"/>
+        <activity
+            android:name=".Determinar"
+            android:exported="false" />
+        <activity
+            android:name=".IngEdad"
+            android:exported="false" />
+        <activity
+            android:name=".ControlesBasicos"
             android:exported="true"/>
         <activity
             android:name=".MenuPrincipal"

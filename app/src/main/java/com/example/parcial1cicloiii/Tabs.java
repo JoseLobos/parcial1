@@ -9,7 +9,7 @@ import com.example.parcial1cicloiii.Controlador.PagerController;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class Tabs extends AppCompatActivity {
 
     TabLayout tabLayout;
     ViewPager viewPager;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.tabs);
 
 
         tabLayout = findViewById(R.id.tablayout);

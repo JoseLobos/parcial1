@@ -6,7 +6,6 @@ import androidx.viewpager.widget.ViewPager;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.parcial1cicloiii.Controlador.PagerController;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
@@ -35,19 +34,19 @@ public class MenuPrincipal extends AppCompatActivity {
                 // Determinar cual fragment se presenta
                 if(tab.getPosition()==0){
 
-                    Intent siguiente = new Intent(MenuPrincipal.this,MainActivity.class);
+                    Intent siguiente = new Intent(MenuPrincipal.this, Tabs.class);
                     startActivity(siguiente);
                 }
                 if(tab.getPosition()==1){
-                    Intent siguiente = new Intent(MenuPrincipal.this,MainActivity.class);
+                    Intent siguiente = new Intent(MenuPrincipal.this, ControlesBasicos.class);
                     startActivity(siguiente);
                 }
                 if(tab.getPosition()==2){
-                    Intent siguiente = new Intent(MenuPrincipal.this,MainActivity.class);
+                    Intent siguiente = new Intent(MenuPrincipal.this, Tabs.class);
                     startActivity(siguiente);
                 }
                 if(tab.getPosition()==3){
-                    Intent siguiente = new Intent(MenuPrincipal.this,MainActivity.class);
+                    Intent siguiente = new Intent(MenuPrincipal.this, Tabs.class);
                     startActivity(siguiente);
                 }
 
