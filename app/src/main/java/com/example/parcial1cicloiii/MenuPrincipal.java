@@ -47,7 +47,11 @@ public class MenuPrincipal extends AppCompatActivity {
                     startActivity(siguiente);
                 }
                 if(tab.getPosition()==3){
-                    Intent siguiente = new Intent(MenuPrincipal.this, Tabs.class);
+                    Intent siguiente = new Intent(MenuPrincipal.this, Sensores.class);
+                    startActivity(siguiente);
+                }
+                if(tab.getPosition()==4){
+                    Intent siguiente = new Intent(MenuPrincipal.this, Multimedia.class);
                     startActivity(siguiente);
                 }
 

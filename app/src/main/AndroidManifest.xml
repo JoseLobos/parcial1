@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parcial1CicloIII">
         <activity
+            android:name=".Ascelerometro"
+            android:exported="false" />
+        <activity
+            android:name=".SensorProximidad"
+            android:exported="false" />
+        <activity
+            android:name=".Sensores"
+            android:exported="true"/>
+        <activity
             android:name=".AcercaDe"
             android:exported="true"/>
         <activity
@@ -23,6 +32,15 @@
             android:exported="false" />
         <activity
             android:name=".ControlesBasicos"
+            android:exported="true"/>
+        <activity
+            android:name=".ReproductorDeVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ReproductorDeAudio"
+            android:exported="false" />
+        <activity
+            android:name=".Multimedia"
             android:exported="true"/>
         <activity
             android:name=".MenuPrincipal"

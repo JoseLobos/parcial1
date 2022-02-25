@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:icon="@drawable/ic__"
 
-            android:text="@string/tabHome" />
+            android:text="@string/tabHomeSensor" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabdesayuno"
