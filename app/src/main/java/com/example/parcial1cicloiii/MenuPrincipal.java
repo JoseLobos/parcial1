@@ -13,7 +13,7 @@ public class MenuPrincipal extends AppCompatActivity {
 
     TabLayout tabLayout;
 
-    TabItem tab1,tab2,tab3,tab4,tab5;
+    TabItem tab1,tab2,tab3,tab4,tab5,tab6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,7 @@ public class MenuPrincipal extends AppCompatActivity {
         tab3 = findViewById(R.id.tab3);
         tab4 = findViewById(R.id.tab4);
         tab5 = findViewById(R.id.tab5);
+        tab5 = findViewById(R.id.tab6);
 
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -55,7 +56,17 @@ public class MenuPrincipal extends AppCompatActivity {
                     startActivity(siguiente);
                 }
 
+                if(tab.getPosition()==5){
+                Intent siguiente = new Intent(MenuPrincipal.this, AcercaDe
+                        .class);
+                startActivity(siguiente);
+
             }
+
+            }
+
+
+
 //Gracias MIlena :v
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
