@@ -94,4 +94,6 @@
 
     //string para reproductor de video
     <string name="Titulodevideo">REPRODUCTOR DE VIDEO</string>
+   <string name="bienvenido">Bienvenido</string>
+    <string name="Casa">Este proyecto es un a recopilacion de los proyectos anteriores todos y cada uno de estos hechos de manera funcional y con algunas modificaciones y adaptaciones para el proyecto actual</string>
 </resources>
